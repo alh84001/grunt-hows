@@ -56,4 +56,5 @@ EOF - što još postoji?
 - google closure
 - testing - mocha, jasmine, karma, phantomjs
 - deployment
+- CSS image substitution
 - roll your own
