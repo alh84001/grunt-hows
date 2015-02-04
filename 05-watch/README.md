@@ -48,6 +48,11 @@ EOF - što još postoji?
 =================================
 
 - jsdoc
-- templating - grunt-consolidate, jade
+- promjena jezika
+    - styling -> Stylus, Less,...
+    - html -> templating, grunt-consolidate, jade
+    - i js je zamjenjiv -> Coffeescript
+- google closure
 - testing - mocha, jasmine, karma, phantomjs
+- deployment
 - roll your own
