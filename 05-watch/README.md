@@ -48,6 +48,7 @@ EOF - što još postoji?
 =================================
 
 - jsdoc
+- depndency handling -> browserify, bower
 - promjena jezika
     - styling -> Stylus, Less,...
     - html -> templating, grunt-consolidate, jade
