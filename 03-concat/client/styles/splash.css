@@ -1,0 +1,28 @@
+
+.splash {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	background: #6c3;
+	text-align: center;
+}
+
+.splash:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.splash .logo {
+	display: inline-block;
+	margin: 0 auto;
+	height: 4em;
+	width: 10em;
+	vertical-align: middle;
+	background: url('../images/logo.png') no-repeat center;
+	background-size: contain;
+}

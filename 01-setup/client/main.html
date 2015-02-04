@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>VidPlay</title>
+		<link rel="stylesheet" href="bower_components/mediaelement/build/mediaelementplayer.css">
+		<link rel="stylesheet" href="styles/app.css">
+		<link rel="stylesheet" href="styles/fileSelector.css">
+	</head>
+	<body>
+		<div class="panel player">
+			<video id="videoPlayer" style="width: 100%; height: 100%;">
+				<track id="videoSubtitles" kind="subtitles">
+			</video>
+		</div>
+		<div class="panel selector">
+			<div class="control-container">
+				<section class="file-selector" id="movieSelector">
+					<button class="file-selector-trigger" data-selector="movieInput" data-selection="movieSelectionInfo" data-title="Choose video"></button>
+					<span class="file-selector-info" id="movieSelectionInfo"></span>
+					<input type="file" accept=".mp4, .webm" class="file-selector-input" id="movieInput">
+				</section>
+				<section class="file-selector" id="subtitleSelector">
+					<button class="file-selector-trigger" data-selector="subtitleInput" data-selection="subtitleSelectionInfo" data-title="Choose subtitles" data-title-selected="Remove"></button>
+					<span class="file-selector-info" id="subtitleSelectionInfo"></span>
+					<input type="file" accept=".srt" class="file-selector-input" id="subtitleInput">
+				</section>
+				<button class="play-trigger">Play!</button>
+			</div>
+		</div>
+		<div class="splash">
+			<span class="logo"></span>
+			<!--<progress class="splash-progress"></progress>-->
+		</div>
+
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+		<script type="text/javascript" src="bower_components/mediaelement/build/mediaelement-and-player.js"></script>
+		<script type="text/javascript" src="scripts/SRTParser.js"></script>
+		<script type="text/javascript" src="scripts/uiFileSelector.js"></script>
+		<script type="text/javascript" src="scripts/uiFX.js"></script>
+		<script type="text/javascript" src="scripts/app.js"></script>
+	</body>
+</html>

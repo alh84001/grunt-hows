@@ -1,0 +1,26 @@
+
+.file-selector {
+	margin: 1em 0;
+}
+
+.file-selector .file-selector-trigger {
+	float: left;
+	font-size: 1.2em;
+	margin-right: 1em;
+	padding: 0;
+	width: 10em;
+	height: 2em;
+	border: none;
+	background: #fff;
+	color: #6c3;
+}
+
+.file-selector .file-selector-info {
+	display: block;
+	overflow: hidden;
+	font-size: 1.2em;
+	height: 2em;
+	line-height: 2em;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
